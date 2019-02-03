@@ -1,13 +1,13 @@
 # API Documentation
 
 ## Installation
-```js
+```
 $ npm i react-with-responsive
 ```
 
 or
 
-```js
+```
 $ yarn add react-with-responsive
 ```
 
