@@ -4,7 +4,7 @@
 
 ## Links
 * [`API Documentation`](./API.md)
-* [`Authors`](./AUTHORS.md)
+* [`Authors`](./AUTHORS)
 * [`Changelog`](./CHANGELOG.md)
 * [`Contributing`](./CONTRIBUTING.md)
 * [`Code of Conduct`](./CODE_OF_CONDUCT.md)
