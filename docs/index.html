@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>react-with-responsive example</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      html {
+        box-sizing: border-box;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+      html,
+      body {
+        min-height: 100%;
+        font-size: 16px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.7;
+        color: rgba(0, 0, 0, 0.8);
+      }
+      .container {
+        max-width: 45em;
+        margin: 5em auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>react-with-responsive example</h1>
+      <p>Adjust the screen size from >960px (Desktop) to smaller and back.</p>
+      <div data-app></div>
+    </main>
+    <script src="app.js" async></script>
+  </body>
+</html>

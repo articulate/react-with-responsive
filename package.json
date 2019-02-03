@@ -1,0 +1,89 @@
+{
+  "name": "react-with-responsive",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rpearce/react-with-responsive.git"
+  },
+  "homepage": "https://github.com/rpearce/react-with-responsive",
+  "bugs": "https://github.com/rpearce/react-with-responsive/issues",
+  "author": "Robert Pearce <me@robertwpearce.com>",
+  "contributors": [
+    "Robert Pearce <me@robertwpearce.com> (https://robertwpearce.com)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "responsive",
+    "media-query",
+    "media-queries",
+    "react",
+    "react-component"
+  ],
+  "tags": [
+    "responsive",
+    "media-query",
+    "media-queries",
+    "react",
+    "react-component"
+  ],
+  "files": [
+    "AUTHORS",
+    "LICENSE",
+    "README.md",
+    "src/"
+  ],
+  "scripts": {
+    "build": "npm run build:js && npm run build:docs",
+    "build:docs": "rm -f docs/app.js && browserify example/app.js -o docs/app.js -t [ babelify ]",
+    "build:js": "rm -rf src && babel source --out-dir src",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "lint": "eslint --ext .js .",
+    "prepublishOnly": "npm run lint && npm run build",
+    "test": "npm run lint && npm run build && jest --coverage --no-cache"
+  },
+  "jest": {
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "<rootDir>/source/**/*.js"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/test/setup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "all-contributors-cli": "^5.11.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.0.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "coveralls": "^3.0.2",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^5.13.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "memoize-one": "^5.0.0"
+  }
+}

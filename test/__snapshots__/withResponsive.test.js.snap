@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withResponsive componentDidMount sets mql property 1`] = `
+Object {
+  "addListener": [MockFunction] {
+    "calls": Array [
+      Array [
+        [Function],
+      ],
+    ],
+    "results": Array [
+      Object {
+        "type": "return",
+        "value": undefined,
+      },
+    ],
+  },
+  "matches": false,
+  "media": "(min-width: 960px)",
+  "onchange": null,
+  "removeListener": [MockFunction],
+}
+`;
+
+exports[`withResponsive renders 1`] = `
+<Desktop(Component)
+  foo="bar"
+>
+  <Component
+    foo="bar"
+    isDesktop={false}
+  >
+    <div>
+      Test
+    </div>
+  </Component>
+</Desktop(Component)>
+`;
+
+exports[`withResponsive renders, no displayName provided 1`] = `
+<Responsive(Component)
+  foo="bar"
+>
+  <Component
+    foo="bar"
+    isDesktop={false}
+  >
+    <div>
+      Test
+    </div>
+  </Component>
+</Responsive(Component)>
+`;
