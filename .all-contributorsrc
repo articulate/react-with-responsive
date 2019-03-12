@@ -21,6 +21,18 @@
         "ideas",
         "test"
       ]
+    },
+    {
+      "login": "mgreystone",
+      "name": "Markus Greystone",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12430681?v=4",
+      "profile": "https://github.com/mgreystone",
+      "contributions": [
+        "code",
+        "ideas",
+        "test",
+        "review"
+      ]
     }
   ]
 }
