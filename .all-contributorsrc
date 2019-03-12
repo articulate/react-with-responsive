@@ -1,6 +1,6 @@
 {
   "projectName": "react-with-responsive",
-  "projectOwner": "rpearce",
+  "projectOwner": "articulate",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -9,19 +9,6 @@
   "imageSize": 100,
   "commit": true,
   "contributors": [
-    {
-      "login": "rpearce",
-      "name": "Robert Pearce",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/592876?v=4",
-      "profile": "https://robertwpearce.com",
-      "contributions": [
-        "code",
-        "doc",
-        "example",
-        "ideas",
-        "test"
-      ]
-    },
     {
       "login": "mgreystone",
       "name": "Markus Greystone",
@@ -44,6 +31,19 @@
         "ideas",
         "test",
         "review"
+      ]
+    },
+    {
+      "login": "rpearce",
+      "name": "Robert Pearce",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/592876?v=4",
+      "profile": "https://robertwpearce.com",
+      "contributions": [
+        "code",
+        "doc",
+        "example",
+        "ideas",
+        "test"
       ]
     }
   ]
