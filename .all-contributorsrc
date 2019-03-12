@@ -33,6 +33,18 @@
         "test",
         "review"
       ]
+    },
+    {
+      "login": "jsilve",
+      "name": "Jillian Silver",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5667054?v=4",
+      "profile": "https://github.com/jsilve",
+      "contributions": [
+        "code",
+        "ideas",
+        "test",
+        "review"
+      ]
     }
   ]
 }
