@@ -1,6 +1,6 @@
 # react-with-responsive
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
-[![npm version](https://img.shields.io/npm/v/react-with-responsive.svg)](https://www.npmjs.com/package/react-with-responsive) [![npm downloads](https://img.shields.io/npm/dt/react-with-responsive.svg)](https://www.npmjs.com/package/react-with-responsive) [![Build Status](https://travis-ci.org/articulate/react-with-responsive.svg?branch=master)](https://travis-ci.org/articulate/react-with-responsive) [![Coverage Status](https://coveralls.io/repos/github/articulate/react-with-responsive/badge.svg?branch=master)](https://coveralls.io/github/articulate/react-with-responsive?branch=master)
+[![npm version](https://img.shields.io/npm/v/react-with-responsive.svg)](https://www.npmjs.com/package/react-with-responsive) [![npm downloads](https://img.shields.io/npm/dm/react-with-responsive.svg)](https://www.npmjs.com/package/react-with-responsive) [![Build Status](https://travis-ci.org/articulate/react-with-responsive.svg?branch=master)](https://travis-ci.org/articulate/react-with-responsive) [![Coverage Status](https://coveralls.io/repos/github/articulate/react-with-responsive/badge.svg?branch=master)](https://coveralls.io/github/articulate/react-with-responsive?branch=master)
 
 ## Links
 * [`API Documentation`](./API.md)
