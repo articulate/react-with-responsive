@@ -1,11 +1,11 @@
 # Contributing
 
-1. Check out the [issues](https://github.com/rpearce/react-with-responsive/issues)
+1. Check out the [issues](https://github.com/articulate/react-with-responsive/issues)
 1. [Fork](https://guides.github.com/activities/forking/) this repository
 1. [Clone](https://help.github.com/articles/cloning-a-repository/) your fork
 1. Add the upstream project (this one) as a git remote:
     ```
-    $ git remote add upstream git@github.com:rpearce/react-with-responsive.git
+    $ git remote add upstream git@github.com:articulate/react-with-responsive.git
     $ git fetch upstream
     $ git rebase upstream/master
     ```
