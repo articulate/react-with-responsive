@@ -1,6 +1,6 @@
 {
   "name": "react-with-responsive",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Responsive Media Query Higher-Order Component (HOC) for React",
   "main": "index.js",
   "repository": {
