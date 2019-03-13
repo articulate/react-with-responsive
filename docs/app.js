@@ -25295,8 +25295,8 @@ var withResponsive = function withResponsive(query, identifier) {
   return function (Comp) {
     var Responsive =
     /*#__PURE__*/
-    function (_PureComponent) {
-      _inherits(Responsive, _PureComponent);
+    function (_Component) {
+      _inherits(Responsive, _Component);
 
       function Responsive() {
         var _getPrototypeOf2;
@@ -25346,7 +25346,7 @@ var withResponsive = function withResponsive(query, identifier) {
       }]);
 
       return Responsive;
-    }(_react.PureComponent);
+    }(_react.Component);
 
     var name = Comp.displayName || Comp.name;
     Responsive.displayName = "".concat(displayName, "(").concat(name, ")");

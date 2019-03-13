@@ -1,11 +1,11 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react'
 
 const withResponsive = (
   query,
   identifier,
   displayName='Responsive'
 ) => Comp => {
-  class Responsive extends PureComponent {
+  class Responsive extends Component {
     constructor(...params) {
       super(...params)
       this.handleChange = this.handleChange.bind(this)
