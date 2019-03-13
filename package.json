@@ -11,6 +11,9 @@
   "bugs": "https://github.com/articulate/react-with-responsive/issues",
   "author": "Articulate Global, Inc. <engineering@articulate.com>",
   "contributors": [
+    "Articulate Global, Inc. <engineering@articulate.com> (https://articulate.com)",
+    "Markus Greystone <mgreystone@articulate.com> (https://github.com/mgreystone)",
+    "Jillian Silver <silverjillian@gmail.com> (https://github.com/jsilve)",
     "Robert Pearce <me@robertwpearce.com> (https://robertwpearce.com)"
   ],
   "license": "ISC",
